@@ -18,11 +18,11 @@
 
 - 다음의 3개의 사이트에서 운세정보를 크롤링한다.
 
-- http://www.unsin.co.kr/
+  - http://www.unsin.co.kr/
 
-- http://shinhan.haezone.com/
+  - http://shinhan.haezone.com/
 
-- http://www.yuksul.com/
+  - http://www.yuksul.com/
 
 ## 사용된 언어, 패키지, 라이브러리
 
