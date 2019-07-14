@@ -35,17 +35,32 @@
 ## 파일 설명
 
 - WebParser.py
-
+  - 챗봇 구동 및 웹 파싱 (챗봇 구동부 분리해야함)
+  
 - WordCollector.py
-
+  - 운세 데이터 파악을 위한 랜덤제너레이터 및 데이터 추출
+  
 - Test.py
+  - 로컬 출력테스트
 
 - requirements.txt
+  - 파이썬 모듈 일괄설치
+  > pip install -r requirements.txt
 
 - LuckScore.csv
+  - 문장 판단 기준 점수표
 
 ## 구동 순서 및 결과
 
+- 슬랙 봇 구동 과정
+  -  pass
+
+- 데이터 전처리 과정 
+  -  pass
+  
+- 기타
+  -  pass
+  
 ## 사용 방법
 
 - 챗봇 구동 후 @[BOT_NAME] YYYY/MM/DD/HH:mm/양음력/성별
@@ -55,3 +70,5 @@
 ## 발전 방향
 
 - 챗봇 내 문맥 인지를 통한 긍/부정성 인식 알고리즘 개선
+
+- 최빈단어 워드클라우드 작성 및 로컬 이미지 업로드
