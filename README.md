@@ -20,12 +20,6 @@
 
 
 ``` 
-담긴 정보
-
-Project명 (Header 1)
-해당 프로젝트가 어떤 프로젝트인지 소개
-프로젝트 정보
-
 설치 (Header 2)
 Getting Started 또는 Installation
 
