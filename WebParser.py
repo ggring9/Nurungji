@@ -61,9 +61,12 @@ from wordcloud import WordCloud
 from slack.web.classes import extract_json
 from slack.web.classes.blocks import *
 
+### 이 부분은 직접 작성해주셔야 합니다. ###
 
-SLACK_TOKEN = ""
-SLACK_SIGNING_SECRET = ""
+SLACK_TOKEN = "YOUR_SLACK_TOKEN"
+SLACK_SIGNING_SECRET = "YOUR_SLACK_SIGNING_SECTRET"
+
+### 여기까지는 직접 작성해주셔야 합니다. ###
 
 app = Flask(__name__)
 # /listening 으로 슬랙 이벤트를 받습니다.
