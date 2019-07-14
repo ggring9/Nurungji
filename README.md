@@ -1,51 +1,57 @@
 (작성중..)
 
-# SSAFY2_BootCamp
+# 누룽지
 
-## This project is...
+## 개요
 
-- Fortuneteller chatbot on slack 
-- Toy project
-- Developed by 2 people.
-  - Jihwan Park
-  - Yeseol Choi
-- Crawl data in 3 sites
-  - http://www.unsin.co.kr/
-  - http://shinhan.haezone.com/
-  - http://www.yuksul.com/
-- Korean
+- 슬랙용 운세 챗봇
 
-## 
+> 당신의 행운을 긁어모아드립니다.
 
+### 문제상황 
 
+- 동일 input에 대해 운세사이트마다 서로 다른 운세를 출력함
 
-``` 
-설치 (Header 2)
-Getting Started 또는 Installation
+### 해결방향
 
-사용 방법 (Header 2)
-이 부분에 대해 작성할때는 최대한 간결한 설명이 될 수 있도록 하자
-또한 다음에 대해 설명할 수 있어야 할 것이다.
-어떤 Step을 밟아야 할까?
-프로그램을 사용하기 위해 어떤 패키지/프로그램이 설치/설정 되어있어야 할까?
-프로젝트에 대해 바로 이해하기에 어려운 점은 어떤 것들이 있을까?
-Contribute
+- 사용자에게 가장 긍정적인 운세 3가지만 출력함으로써 긍정적인 사용자 경험을 제공
 
-다른사람들이 코드에 contribute하기 쉽도록 설명하는 부분을 추가하도록 하자!
-이 부분을 위해서 LICENSE를 기입해야할 필요가 있다.
-어떤 LICENSE를 사용할지 모르면 아래 사이트를 참조하면 쉽게 선택할 수 있다!
+- 다음의 3개의 사이트에서 운세정보를 크롤링한다.
 
-https://choosealicense.com/
+- http://www.unsin.co.kr/
 
-Code Status
+- http://shinhan.haezone.com/
 
-Shield라고 불리는 것을 사용해보자
-[build | passing]과 같은 정보를 줄 수있다.
-일단 막 README를 작성한다면 이 부분에 대해서는 크게 신경쓰지말자
-프로젝트가 커질수록 도움이 되는 부분
+- http://www.yuksul.com/
 
-주의점
+## 사용된 언어, 패키지, 라이브러리
 
-README를 처음부터 너무 복잡하게 작성하지 말자
-코드를 작성하면서 프로젝트가 커질수록 README를 디테일하게 작성할 수 있도록 하는편이 바람직하다
-```
+- Python 3
+
+- Flask
+
+- Beautiful Soup
+
+## 파일 설명
+
+- WebParser.py
+
+- WordCollector.py
+
+- Test.py
+
+- requirements.txt
+
+- LuckScore.csv
+
+## 구동 순서 및 결과
+
+## 사용 방법
+
+- 챗봇 구동 후 @[BOT_NAME] YYYY/MM/DD/HH:mm/양음력/성별
+
+> @누룽지 2009/07/14/22:25/양력/남
+
+## 발전 방향
+
+- 챗봇 내 문맥 인지를 통한 긍/부정성 인식 알고리즘 개선
