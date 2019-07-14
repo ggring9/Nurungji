@@ -4,23 +4,31 @@
 
 ## This project is...
 
-- Fortuneteller chatbot in slack 
+- Fortuneteller chatbot on slack 
 - Toy project
 - Developed by 2 people.
   - Jihwan Park
   - Yeseol Choi
-  
+- Crawl data in 3 sites
+  - http://www.unsin.co.kr/
+  - http://shinhan.haezone.com/
+  - http://www.yuksul.com/
+- Korean
+
 ## 
+
+
 
 ``` 
 담긴 정보
-Project명 (Header 1)
 
+Project명 (Header 1)
 해당 프로젝트가 어떤 프로젝트인지 소개
 프로젝트 정보
 
 설치 (Header 2)
 Getting Started 또는 Installation
+
 사용 방법 (Header 2)
 이 부분에 대해 작성할때는 최대한 간결한 설명이 될 수 있도록 하자
 또한 다음에 대해 설명할 수 있어야 할 것이다.
@@ -41,6 +49,7 @@ Shield라고 불리는 것을 사용해보자
 [build | passing]과 같은 정보를 줄 수있다.
 일단 막 README를 작성한다면 이 부분에 대해서는 크게 신경쓰지말자
 프로젝트가 커질수록 도움이 되는 부분
+
 주의점
 
 README를 처음부터 너무 복잡하게 작성하지 말자
