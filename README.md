@@ -56,7 +56,7 @@
   -  User -> Slackbot -> WebParser.py -> WebPage -> WebParser.py -> LuckScore.csv -> WebParser -> Slackbot -> User
 
 - 데이터 전처리 과정 
-  -  WordCollector.py -> Output.txt 
+  -  WordCollector.py ->  WebParser.py -> WebPage -> WebParser.py -> WordCollector.py -> Output.txt 
   
 - 기타
   -  Output.txt -> LuckScore.csv
@@ -73,4 +73,4 @@
 
 - 챗봇 내 문맥 인지를 통한 긍/부정성 인식 알고리즘 개선
 
-- 최빈단어 워드클라우드 이미지 생성 및 업로드
+- slack 상에 최빈단어로 생성된 워드클라우드 이미지 업로드
