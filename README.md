@@ -34,9 +34,9 @@
 
 ## 버전
 
-|version|date|comment|
+|date|version|comment|
 |---|---|---|
-|1.0|7/12|초기버전|
+|7/12|1.0|초기버전|
 
 ## 파일 설명
 
