@@ -32,6 +32,12 @@
 
 - Beautiful Soup
 
+## 버전
+
+|version|date|comment|
+|---|---|---|
+|1.0|7/12|초기버전|
+
 ## 파일 설명
 
 - WebParser.py
