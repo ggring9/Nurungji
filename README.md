@@ -53,13 +53,13 @@
 ## 구동 순서 및 결과
 
 - 슬랙 봇 구동 과정
-  -  pass
+  -  User -> Slackbot -> WebParser.py -> WebPage -> WebParser.py -> LuckScore.csv -> WebParser -> Slackbot -> User
 
 - 데이터 전처리 과정 
-  -  pass
+  -  WordCollector.py -> Output.txt 
   
 - 기타
-  -  pass
+  -  Output.txt -> LuckScore.csv
   
 ## 사용 방법
 
